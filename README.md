@@ -13,7 +13,7 @@
 ```
   $ git clone https://github.com/vengatlnx/Mbed-Projects.git
 ```
-Note: This repository contains `gcc4mbed` command-line tool for compile and
+**Note:** This repository contains `gcc4mbed` command-line tool for compile and
 build mbed applications
 
 ### gcc4mbed
@@ -26,7 +26,7 @@ build mbed applications
   $ cd Mbed-Projects/gcc4mbed
   $ ./linux_install
 ```
-Note: This will download and install arm-gcc compiler for building mbed
+**Note:** This will download and install arm-gcc compiler for building mbed
 application
 
 ### Build
@@ -40,7 +40,7 @@ application
 
   PROJECT         := Blinky
   DEVICES         := LPC1768
-  GCC4MBED_DIR    := ../..
+  GCC4MBED_DIR    := ../gcc4mbed
   NO_FLOAT_SCANF  := 1
   NO_FLOAT_PRINTF := 1
 ```
