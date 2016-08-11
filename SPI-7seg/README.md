@@ -1,3 +1,3 @@
-# LEDGlow
+# SPI-7seg
 
-  Example project to on LED when key press in NXP-lpc1768
+  Example project to display digits in 7 segment through SPI
